@@ -8,6 +8,6 @@ use Illuminate\View\View;
 class HelloController extends Controller
 {
     public function index(): View{
-        return view('hello.index');
+        return view('hello.hello');
     }
 }

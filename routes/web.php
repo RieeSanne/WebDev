@@ -14,4 +14,4 @@ Route::get(uri:'/computer', action: "App\Http\Controllers\ProfileController@inde
 Route::get(uri:'/login', action: "App\Http\Controllers\LoginController@index");
 Route::post(uri:'/login', action: "App\Http\Controllers\LoginController@index");
 
-Route::get(uri:'/index', action: "App\Http\Controllers\HelloController@index");
+Route::get(uri:'/hello', action: "App\Http\Controllers\HelloController@index");
