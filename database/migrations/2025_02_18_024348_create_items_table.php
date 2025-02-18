@@ -10,9 +10,10 @@ class CreateItemsTable extends Migration
     {
         Schema::create('items', function (Blueprint $table) {
             $table->id(); 
-            $table->string('name'); 
-            $table->decimal('price', 10, 2); 
             $table->unsignedBigInteger('category_id'); 
+            $table->string('item_name'); 
+            $table->integer('Qty');
+            $table->decimal('price', 10, 2); 
             $table->timestamps();
 
          
